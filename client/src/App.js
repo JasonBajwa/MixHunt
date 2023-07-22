@@ -6,8 +6,8 @@ import SongDetails from './components/SongDetails';
 
 //BIG NOTE: SPOTFIY IS VERY PICKY AND WANTS REQUESTS AND STUFF TO BE VERY SPECIFIC FORMAT
 
-const CLIENT_ID = "b9b5ddc887d240f7aa39b648a1de3f96";
-const CLIENT_SECRET = "a513cc254ea24cb18d3d557ffb987615";
+const CLIENT_ID = "";
+const CLIENT_SECRET = "";
 
 function getRandomSearchQuery() {
   const characters = 'abcdefghijklmnopqrstuvwxyz';
