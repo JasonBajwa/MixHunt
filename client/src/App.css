@@ -1,0 +1,127 @@
+.background {
+  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
+}
+
+body {
+  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
+}
+
+.App {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  /* background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%); */
+  display: flex;
+  justify-content: center;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+
+.song-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Add this line */
+  /* Rest of your CSS styles */
+}
+
+
+.container-wrapper {
+  width: 200px; /* Adjust the width as desired */
+  height: 200px; /* Adjust the height as desired */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.album-cover-container {
+  width: 200px; /* Adjust the width as desired */
+  height: 200px; /* Adjust the height as desired */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.album-cover {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0; /* Prevent the image from shrinking */
+
+}
+
+.song-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.song-title {
+  width: 100%;
+  text-align: center;
+  color: black;
+  word-wrap: break-word;
+}
+
+
+
+
+
+.generate-button {
+  position: relative; /* Change absolute to relative */
+  margin: 10px;
+}
+
+.container-content {
+  margin-top: 50px;
+}
+
+
+
